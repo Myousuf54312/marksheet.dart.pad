@@ -1,0 +1,49 @@
+void main() {
+  
+  var nameb = "M.Yousuf Siddiqui";
+  var father = "M.Rehan Shakir";
+  
+  var class_ ="Matric";
+
+  
+  var school = "The Country School";
+  var subject1 = 78;
+  var subject2 = 65;
+  var subject3 = 84;
+  var subject4 = 76;
+  var subject5 = 89;
+  
+  var totalmarks = 500;
+  
+  var marksachieve = (subject1+subject2+subject3+subject4+subject5);
+  
+  var percentage = (marksachieve/totalmarks)*100;
+  
+  var grade ;
+  if (percentage>90){
+    grade = "A+";
+  }else if(percentage>80){
+    grade = "A";
+  }else if (percentage>70){
+    grade = "B+";
+  }else if (percentage>60){
+    grade = "B";
+  }else if(percentage>50){
+    grade = "C+";
+  }else if(percentage>40){
+    grade = "C";
+  }else{
+    grade = "Fail";
+  }
+    print ("--Name: $nameb");
+    print ( "--Father Name: $father");
+    print ("--Class: $class_ \n--School Name: $school");
+    print ("************************************************");
+    print ("--Total Subject 5");
+    print ("(1)MATHS-[78/100] \n(2)PHYSICS-[65/100] \n(3)URDU-[84/100] \n(4)ISLAMIAT-[76/100] \n(5)ENGLISH-[89/100]");
+    print ("************************************************");
+    print ("--Total marks: $totalmarks");
+    print ("--Marks Achieve $marksachieve");
+    print ("--Percentage: $percentage% ");
+    print ("--Grade: $grade");
+      
